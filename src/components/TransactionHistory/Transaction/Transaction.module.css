@@ -1,0 +1,9 @@
+.table td{
+    height: 50px;
+    text-align: center;
+}
+
+.table:nth-child(2n){
+
+    background-color: rgb(204, 219, 231);
+}

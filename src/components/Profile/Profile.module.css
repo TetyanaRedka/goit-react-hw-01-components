@@ -1,0 +1,66 @@
+@value primary-background-color from "../../vars.module.css";
+
+body {
+  background-color: hsl(0, 3%, 86%);
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.profile {
+  display: block;
+  width: 400px;
+  border: 1px solid black;
+  margin: 20px auto;
+  background-color: white;
+}
+
+.description {
+  text-align: center;
+  padding: 15px;
+}
+
+.avatar {
+  width: 50%;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 20px;
+}
+
+.tag {
+  font-size: 16px;
+  color: gray;
+}
+
+.location {
+  font-size: 16px;
+  color: gray;
+}
+
+.stats {
+  display: flex;
+  background-color: primary-background-color;
+}
+
+.stats li {
+  width: 33%;
+  padding: 10px 0;
+}
+
+.label {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 5px;
+}
+.quantity {
+  display: block;
+  text-align: center;
+}

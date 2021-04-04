@@ -1,0 +1,28 @@
+.active {
+  margin: auto 15px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.true {
+  composes: active;
+  background-color: green;
+}
+
+.false {
+  composes: active;
+  background-color: red;
+}
+
+.avatar {
+  margin: 5px 10px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.name {
+  vertical-align: baseline;
+}
