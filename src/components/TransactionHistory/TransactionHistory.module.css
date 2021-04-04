@@ -1,0 +1,14 @@
+.transactionHistory{
+    width: 400px;
+    margin: 20px auto;
+    background-color: white;
+}
+
+.transactionHistory thead{
+background-color:turquoise;
+color: white;
+}
+
+.transactionHistory th{
+        height: 50px;
+}

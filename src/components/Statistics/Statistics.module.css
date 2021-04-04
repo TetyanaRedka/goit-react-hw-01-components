@@ -1,0 +1,16 @@
+@value primary-background-color from "../../vars.module.css";
+
+.statistics {
+  width: 400px;
+  margin: 20px auto;
+  border: 1px solid black;
+  background-color: white;
+  text-align: center;
+}
+
+.statList {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  background-color: primary-background-color;
+}
